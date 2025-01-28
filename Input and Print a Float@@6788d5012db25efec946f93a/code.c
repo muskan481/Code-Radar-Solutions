@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 char* welcome() {
-    float a=3.14
-    printf("3.14");
-    scanf("You entered: %f",a);
+    float a;
+    scanf("You entered: %f",&a);
     return "Welcome to Code Radar!";
 }
 
