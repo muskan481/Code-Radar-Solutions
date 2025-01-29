@@ -2,6 +2,7 @@
 
 int main() {
     int m;
+    printf();
     scanf("%d",&m);
     if(m>=90){
         printf("A");
