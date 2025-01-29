@@ -6,7 +6,7 @@ int main() {
     if(m>=90){
         printf("A");
     }
-    else if(m> =80 && m<90){
+    else if(m>=80 && m<90){
         printf("B");
     }
     else if(m>=70 && m<80){
@@ -16,7 +16,7 @@ int main() {
         printf("D");
     }
     else{
-        printf("F")
+        printf("F");
     }
     return 0;
 }
