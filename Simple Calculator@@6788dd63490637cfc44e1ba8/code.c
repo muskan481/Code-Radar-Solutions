@@ -16,14 +16,14 @@ int main() {
     }
     else if(ch=='/'){ 
         if(b==0){
-            printf("Error");
+            printf("error");
         }
         else{
             printf("%d", (int)d );
     }
     }
     else{
-        printf("Error");
+        printf("error");
     } 
     return 0;
 }
