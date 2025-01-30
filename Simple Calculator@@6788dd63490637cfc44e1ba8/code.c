@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,sum=0,diff=0,mul=0,div=0;
+    int a,b;//sum=0,diff=0,mul=0,div=0;
     scanf("%d %d",&a,&b);
     char ch;
     scanf("%c",&ch);
-    sum=a+b;
-    diff=a-b;
-    mul=a*b;
-    div=int(a/b);
+    //sum=a+b;
+    //diff=a-b;
+    //mul=a*b;
+   // div=int(a/b);
     if(ch=='+'){
-        printf("%d",sum);
+        printf("%d", a+b);
     }
     else if(ch=='-'){
-        printf("%d",diff);
+        printf("%d", a-b);
     }
     else if(ch=='*'){
-        printf("%d",mul);
+        printf("%d", a*b);
     }
     else if(ch=='/'){
-        printf("%d",div);
+        printf("%d", int(a/b));
     }
     else{
         printf("Error");
