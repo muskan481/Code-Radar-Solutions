@@ -14,8 +14,13 @@ int main() {
         printf("%d", a*b);
     }
     else if(ch=='/'){ 
-        float d=(float)a/b;
-        printf("%d", (int)d );
+        if(b==0){
+            printf("Error");
+        }
+        else{
+            float d=(float)a/b;
+            printf("%d", (int)d );
+    }
     }
     else{
         printf("Error");
