@@ -19,7 +19,7 @@ int main() {
         printf("%d",mul);
     }
     else if(ch=='/'){
-        printf("%d",div);
+        printf("%f",div);
     }
     else{
         printf("Error");
