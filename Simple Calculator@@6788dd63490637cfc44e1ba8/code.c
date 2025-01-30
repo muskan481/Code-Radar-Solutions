@@ -8,7 +8,7 @@ int main() {
     sum=a+b;
     diff=a-b;
     mul=a*b;
-    div=float(a/b);
+    div=int(a/b);
     if(ch=='+'){
         printf("%d",sum);
     }
@@ -19,7 +19,7 @@ int main() {
         printf("%d",mul);
     }
     else if(ch=='/'){
-        printf("%f",div);
+        printf("%d",div);
     }
     else{
         printf("Error");
