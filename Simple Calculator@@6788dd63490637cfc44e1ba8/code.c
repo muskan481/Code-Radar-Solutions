@@ -4,13 +4,14 @@ int main() {
     int a,b;
     char ch; //sum=0,diff=0,mul=0,div=0;
     scanf("%d %d %c",&a ,&b , &ch);
+    printf("%d %d %c" , a , b, c);
     //char ch;
     //scanf("%c",&ch);
     //sum=a+b;
     //diff=a-b;
     //mul=a*b;
    // div=int(a/b);
-    if(ch=='+'){
+    /* if(ch=='+'){
         printf("%d", a+b);
     }
     else if(ch=='-'){
@@ -24,6 +25,6 @@ int main() {
     }
     else{
         printf("Error");
-    }
+    } */
     return 0;
 }
