@@ -9,6 +9,7 @@ int main() {
         a=1;
         break;
     }
+    }
     if(n==1){
         printf("Not Prime");
     }
@@ -18,6 +19,6 @@ int main() {
     else{
         printf("Not Prime");
     }
-   }
+   
     return 0;
 }
