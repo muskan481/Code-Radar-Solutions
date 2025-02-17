@@ -2,9 +2,9 @@
 #include<stdio.h>
 
 int main(){
-    int n;
+    int n,b ;
     scanf("%d",&n);
-    int b=n>>31;
+    b=n>>31;
     if(b==1){
         printf("Set");
     }
